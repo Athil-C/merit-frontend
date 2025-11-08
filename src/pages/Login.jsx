@@ -2,14 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../api.js';
 
-<<<<<<< HEAD
-// Access environment variables in Login component
-// Note: In Vite, environment variables must be prefixed with VITE_
-// Example: import.meta.env.VITE_API_URL
-// The API URL is already configured in api.js using VITE_API_URL
-=======
  
->>>>>>> 589cdf6fa04d9812363ced05cadb50edf748d7ca
 
 export default function Login() {
   const [mode, setMode] = useState('admin');
